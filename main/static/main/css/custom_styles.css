@@ -1,0 +1,11 @@
+
+.developers a {
+	color: #777;
+}
+.developers a:hover {
+	color: #777;
+	text-decoration: underline;
+}
+.developers a:visited {
+	color: #777;
+}
