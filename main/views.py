@@ -1,7 +1,6 @@
 from django.shortcuts import render
-from django.views import generic
 
-from main.models import Draw
+from main.models import Draw, Dance
 
 
 def index(request):
@@ -9,10 +8,25 @@ def index(request):
 
 
 def dance(request):
-    return render(request, 'main/dance.html')
+    danceelements = Dance.objects.all()
+
+    if request.method == "POST":  # Like button clicked
+        item_id = request.POST.get("item_id")
+        selected_element = Dance.objects.get(id=item_id)
+        selected_element.likes = selected_element.likes + 1
+        selected_element.save()
+
+    return render(request, 'main/dance.html', dict(danceelements=danceelements))
 
 
-class DrawListView(generic.ListView):
-    model = Draw
-    context_object_name = "drawelements"
-    template_name = 'main/draw.html'
+def draw(request):
+    drawelements = Draw.objects.all()
+
+    if request.method == "POST":  # Like button clicked
+        item_id = request.POST.get("item_id")
+        selected_element = Draw.objects.get(id=item_id)
+        selected_element.likes = selected_element.likes + 1
+        selected_element.save()
+
+    return render(request, 'main/draw.html', dict(drawelements=drawelements))
+

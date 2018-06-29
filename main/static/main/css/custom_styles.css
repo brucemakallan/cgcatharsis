@@ -45,6 +45,13 @@
 		background-color: rgba(0,0,0,0.5);
 		padding: 10px;
 	}
+	.likes, .views {
+		background-color: rgba(100,100,100,0.5);
+		padding: 5px;
+	}
+	.likes i, .views i {
+		color: white !important;
+	}
 }
 
 .developers a {
