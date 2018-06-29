@@ -6,5 +6,5 @@ app_name = 'main'
 urlpatterns = [
     path('', views.index, name='index'),
     path('dance', views.dance, name='dance'),
-    path('draw', views.draw, name='draw'),
+    path('draw', views.DrawListView.as_view(), name='draw'),
 ]

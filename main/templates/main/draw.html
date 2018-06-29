@@ -12,105 +12,62 @@
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3 col-md-pull-3">
                         <span class="heading-meta">Draw</span>
-                        <h2 class="colorlib-heading animate-box" data-animate-effect="fadeInLeft">All Images (## items)</h2>
+                        <h2 class="colorlib-heading animate-box" data-animate-effect="fadeInLeft">All Images ({{ drawelements.count }} items)</h2>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-                        <div class="project" style="background-image: url(http://iviidev.info/downloads/cgcatharsis/images/dancer.jpg);">
-                            <div class="desc">
-                                <div class="con">
-                                    <h3><a href="#">Work 01</a></h3>
-                                    <span>Branding, Ilustration</span>
-                                    <p class="icon">
-                                        <span><a href="#"><i class="icon-share3"></i></a></span>
-                                        <span><a href="#"><i class="icon-eye"></i> 100</a></span>
-                                        <span><a href="#"><i class="icon-heart"></i> 49</a></span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-                        <div class="project" style="background-image: url(http://iviidev.info/downloads/cgcatharsis/images/dancer.jpg);">
-                            <div class="desc">
-                                <div class="con">
-                                    <h3><a href="#">Work 02</a></h3>
-                                    <span>Logo, Web, Branding</span>
-                                    <p class="icon">
-                                        <span><a href="#"><i class="icon-share3"></i></a></span>
-                                        <span><a href="#"><i class="icon-eye"></i> 100</a></span>
-                                        <span><a href="#"><i class="icon-heart"></i> 49</a></span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-                        <div class="project" style="background-image: url(http://iviidev.info/downloads/cgcatharsis/images/dancer.jpg);">
-                            <div class="desc">
-                                <div class="con">
-                                    <h3><a href="#">Work 03</a></h3>
-                                    <span>Illustration, Logo</span>
-                                    <p class="icon">
-                                        <span><a href="#"><i class="icon-share3"></i></a></span>
-                                        <span><a href="#"><i class="icon-eye"></i> 100</a></span>
-                                        <span><a href="#"><i class="icon-heart"></i> 49</a></span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-                        <div class="project" style="background-image: url(http://iviidev.info/downloads/cgcatharsis/images/dancer.jpg);">
-                            <div class="desc">
-                                <div class="con">
-                                    <h3><a href="#">Work 04</a></h3>
-                                    <span>Web, Logo, Branding</span>
-                                    <p class="icon">
-                                        <span><a href="#"><i class="icon-share3"></i></a></span>
-                                        <span><a href="#"><i class="icon-eye"></i> 100</a></span>
-                                        <span><a href="#"><i class="icon-heart"></i> 49</a></span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-                        <div class="project" style="background-image: url(http://iviidev.info/downloads/cgcatharsis/images/dancer.jpg);">
-                            <div class="desc">
-                                <div class="con">
-                                    <h3><a href="#">Work 05</a></h3>
-                                    <span>Illustration, Logo</span>
-                                    <p class="icon">
-                                        <span><a href="#"><i class="icon-share3"></i></a></span>
-                                        <span><a href="#"><i class="icon-eye"></i> 100</a></span>
-                                        <span><a href="#"><i class="icon-heart"></i> 49</a></span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-                        <div class="project" style="background-image: url(http://iviidev.info/downloads/cgcatharsis/images/dancer.jpg);">
-                            <div class="desc">
-                                <div class="con">
-                                    <h3><a href="#">Work 06</a></h3>
-                                    <span>Web, Logo, Branding</span>
-                                    <p class="icon">
-                                        <span><a href="#"><i class="icon-share3"></i></a></span>
-                                        <span><a href="#"><i class="icon-eye"></i> 100</a></span>
-                                        <span><a href="#"><i class="icon-heart"></i> 49</a></span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+                <table id="example" class="table" style="width:100%; table-layout:fixed;">
+                    <thead style="display: none;">
+                        <tr><th>&nbsp;</th></tr>
+                    </thead>
+                    <tbody>
+
+                        <!-- 3 elements drawn within a row in the Datatable -->
+                        {% for drawelement in drawelements %}
+                            <tr style="display: inline; font-size: 0;">
+                                <td style="padding: 10px; border: none; display: inline-block; min-width: 33.33%; margin: 0; padding: 0; font-size: 15px;">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                                                <div class="text-center">{{ drawelement.title }}</div>
+                                                <div class="project" style="background-image: url({{ drawelement.image_url }});">
+                                                    <div class="desc">
+                                                        <div class="con">
+                                                            <h2 class="text-white">{{ drawelement.title }}</h2>
+                                                            <p class="text-white">{{ drawelement.description }}</p>
+                                                            <p class="icon">
+                                                                <span><a href="{{ drawelement.share_url }}"><i class="icon-share3"></i></a></span>
+                                                                <span><a href="#"><i class="icon-eye"></i> {{ drawelement.views }}</a></span>
+                                                                <span><a href="#"><i class="icon-heart"></i> {{ drawelement.likes }}</a></span>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        {% endfor %}
+
+                    </tbody>
+                </table>
+
             </div>
         </div>
 
         {% include 'main/footer.html' %}
     </div>
 
+{% endblock %}
+
+{% block customjs %}
+    <script type="application/javascript">
+        $(document).ready(function() {
+            $('#example').DataTable({
+                ordering: false,
+                "lengthMenu": [[9, 18], [9, 18]]
+            });
+        } );
+    </script>
 {% endblock %}

@@ -1,4 +1,7 @@
 from django.shortcuts import render
+from django.views import generic
+
+from main.models import Draw
 
 
 def index(request):
@@ -9,5 +12,7 @@ def dance(request):
     return render(request, 'main/dance.html')
 
 
-def draw(request):
-    return render(request, 'main/draw.html')
+class DrawListView(generic.ListView):
+    model = Draw
+    context_object_name = "drawelements"
+    template_name = 'main/draw.html'

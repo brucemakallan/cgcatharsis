@@ -1,3 +1,13 @@
 from django.db import models
 
-# Create your models here.
+
+class Draw(models.Model):
+    title = models.CharField(max_length=1000)
+    description = models.TextField()
+    image_url = models.CharField(max_length=1000)
+    share_url = models.CharField(max_length=1000)
+    views = models.IntegerField()
+    likes = models.IntegerField()
+
+    def __str__(self):
+        return "{} V#{}, L#{}".format(self.title, self.views, self.likes)
