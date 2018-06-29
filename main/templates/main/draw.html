@@ -24,8 +24,18 @@
 
                         <!-- 3 elements drawn within a row in the Datatable -->
                         {% for drawelement in drawelements %}
+
+                            <!-- Show full image: Large modal
+                            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                              <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                  <img style="width: 100%;" src="{{ drawelement.image_url }}" alt="Full Image">
+                                </div>
+                              </div>
+                            </div> -->
+
                             <tr style="display: inline; font-size: 0;">
-                                <td style="padding: 10px; border: none; display: inline-block; min-width: 33.33%; margin: 0; padding: 0; font-size: 15px;">
+                                <td class="datatable-mod-td">
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
@@ -33,12 +43,27 @@
                                                 <div class="project" style="background-image: url({{ drawelement.image_url }});">
                                                     <div class="desc">
                                                         <div class="con">
-                                                            <h2 class="text-white">{{ drawelement.title }}</h2>
-                                                            <p class="text-white">{{ drawelement.description }}</p>
+                                                            <div class="entry-intro">
+                                                                <h2 class="entry-heading text-white">{{ drawelement.title }}</h2>
+                                                                <p class="entry-subheading text-white">{{ drawelement.description }}</p>
+                                                            </div>
+                                                            <p class="play-icon text-white text-center mt-5">
+                                                                <a href="{{ drawelement.image_url }}">
+                                                                    <i class="icon-zoom-in" style="font-size: 80px;" title="View full image"></i>
+                                                                </a>
+                                                            </p>
                                                             <p class="icon">
-                                                                <span><a href="{{ drawelement.share_url }}"><i class="icon-share3"></i></a></span>
                                                                 <span><a href="#"><i class="icon-eye"></i> {{ drawelement.views }}</a></span>
                                                                 <span><a href="#"><i class="icon-heart"></i> {{ drawelement.likes }}</a></span>
+                                                                <br><br>
+                                                                <iframe src="https://www.facebook.com/plugins/share_button.php?href={{ drawelement.image_url }}&layout=button&size=small&mobile_iframe=true&appId=1636656563242694&width=59&height=20"
+                                                                        width="59" height="20"
+                                                                        style="border:none; overflow:hidden;"
+                                                                        scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                                                                <br>
+                                                                <a target="_blank" class="twitter-btn" href="https://twitter.com/intent/tweet?text={{ drawelement.image_url }}">
+                                                                    <i class="icon-twitter2" style="color: white"></i> Tweet
+                                                                </a>
                                                             </p>
                                                         </div>
                                                     </div>
@@ -53,6 +78,13 @@
                     </tbody>
                 </table>
 
+                <div class="row mt-5">
+                    <div class="col-md-12">
+                        <h6>Share this page</h6>
+                        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                        <div class="addthis_inline_share_toolbox_wzfy"></div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -62,6 +94,9 @@
 {% endblock %}
 
 {% block customjs %}
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b3625590dde126a"></script>
+
     <script type="application/javascript">
         $(document).ready(function() {
             $('#example').DataTable({

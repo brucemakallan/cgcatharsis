@@ -1,4 +1,52 @@
 
+.play-icon a:hover {
+	color: white;
+	text-decoration: none;
+}
+.modal-lg {
+	max-width: 1024px !important;
+}
+.datatable-mod-td {
+	padding: 10px;
+	border: none !important;
+	display: inline-block;
+	min-width: 33.33%;
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+}
+
+.twitter-btn {
+	padding: 6px;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: #55ACEE;
+    color: white;
+    border-radius: 3px;
+}
+.twitter-btn:hover {
+	color: white;
+	text-decoration: none;
+}
+.twitter-btn:visited {
+	color: white;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+	.modal-lg {
+		margin-top: 70px;
+		max-width: 97%;
+	}
+	.datatable-mod-td {
+		min-width: 100%;
+	}
+	.entry-intro {
+		background-color: rgba(0,0,0,0.5);
+		padding: 10px;
+	}
+}
+
 .developers a {
 	color: #777;
 }
