@@ -2,34 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3648bf62-bb8a-470c-9bca-74a7791d6d1c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/main/images/img-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/main/images/img-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/main/images/img-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/main/images/img-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/main/images/img-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/main/images/img-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/main/images/img-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/main/images/img-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/main/images/img-9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/main/images/img_bg_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/main/images/img_bg_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/main/images/loc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/main/images/work-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/main/images/work-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/main/images/work-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/main/images/work-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/main/images/work-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/main/images/work-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/main/images/work-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/main/images/work-8.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/models.py" afterPath="$PROJECT_DIR$/main/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/templates/main/dance.html" afterPath="$PROJECT_DIR$/main/templates/main/dance.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/templates/main/draw.html" afterPath="$PROJECT_DIR$/main/templates/main/draw.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/templates/main/index.html" afterPath="$PROJECT_DIR$/main/templates/main/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/urls.py" afterPath="$PROJECT_DIR$/main/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/views.py" afterPath="$PROJECT_DIR$/main/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/templates/main/video.html" afterPath="$PROJECT_DIR$/main/templates/main/video.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,46 +21,9 @@
       <file leaf-file-name="custom_styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/static/main/css/custom_styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
+            <state relative-caret-position="474">
               <caret line="65" column="1" lean-forward="false" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/templates/main/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="40" column="50" lean-forward="false" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dance.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/templates/main/dance.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="56" column="79" lean-forward="true" selection-start-line="52" selection-start-column="72" selection-end-line="56" selection-end-column="79" />
-              <folding>
-                <element signature="e#2170#2176#0#HTML" expanded="true" />
-                <element signature="e#2208#2214#0#HTML" expanded="true" />
-                <element signature="e#2777#2801#0#HTML" expanded="true" />
-                <element signature="e#3130#3155#0#HTML" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -93,16 +31,10 @@
       <file leaf-file-name="video.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/templates/main/video.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="39" column="76" lean-forward="false" selection-start-line="39" selection-start-column="76" selection-end-line="39" selection-end-column="76" />
+            <state relative-caret-position="357">
+              <caret line="44" column="28" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
               <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#video#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#2376#2382#0#HTML" expanded="true" />
-                <element signature="e#2418#2424#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#input#1;n#form#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -237,7 +169,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="base&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/templates/main/base.html&#10;views&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/views.py&#10;urls&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/urls.py&#10;ind&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/templates/main/index.html&#10;draw&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/templates/main/draw.html&#10;m&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/models.py&#10;mod&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/models.py&#10;view&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/views.py&#10;url&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/urls.py&#10;adm&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/admin.py&#10;mode&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/models.py&#10;dance&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/templates/main/dance.html&#10;custom&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/static/main/css/custom_styles.css&#10;admin&#9;null&#9;null&#10;models&#9;null&#9;null&#10;index&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/templates/main/index.html" />
+    <property name="SearchEverywhereHistoryKey" value="video&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/templates/main/video.html&#10;base&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/templates/main/base.html&#10;views&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/views.py&#10;urls&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/urls.py&#10;ind&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/templates/main/index.html&#10;draw&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/templates/main/draw.html&#10;m&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/models.py&#10;mod&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/models.py&#10;view&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/views.py&#10;url&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/urls.py&#10;adm&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/admin.py&#10;mode&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/models.py&#10;dance&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/templates/main/dance.html&#10;custom&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/static/main/css/custom_styles.css&#10;admin&#9;null&#9;null&#10;models&#9;null&#9;null&#10;index&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/templates/main/index.html" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RunDashboard">
@@ -331,6 +263,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main/static/main/css/custom_styles.css">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/static/main/css/custom_styles.css">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
           <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
           <folding />
@@ -342,7 +282,7 @@
         <state relative-caret-position="504">
           <caret line="24" column="55" lean-forward="false" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -351,12 +291,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
           <caret line="50" column="158" lean-forward="false" selection-start-line="50" selection-start-column="158" selection-end-line="50" selection-end-column="158" />
-          <folding>
-            <element signature="e#2170#2176#0#HTML" expanded="true" />
-            <element signature="e#2208#2214#0#HTML" expanded="true" />
-            <element signature="e#2777#2801#0#HTML" expanded="true" />
-            <element signature="e#3130#3155#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -372,7 +306,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="34" column="175" lean-forward="false" selection-start-line="34" selection-start-column="173" selection-end-line="34" selection-end-column="175" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -381,7 +314,7 @@
         <state relative-caret-position="357">
           <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -390,9 +323,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1218">
           <caret line="58" column="156" lean-forward="false" selection-start-line="58" selection-start-column="156" selection-end-line="58" selection-end-column="156" />
-          <folding>
-            <element signature="e#3735#3759#0#HTML" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -400,12 +330,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="e#2170#2176#0#HTML" expanded="true" />
-            <element signature="e#2208#2214#0#HTML" expanded="true" />
-            <element signature="e#2777#2801#0#HTML" expanded="true" />
-            <element signature="e#3130#3155#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -413,9 +337,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#28#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -423,9 +344,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -440,9 +358,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="588">
           <caret line="28" column="103" lean-forward="false" selection-start-line="28" selection-start-column="92" selection-end-line="28" selection-end-column="103" />
-          <folding>
-            <element signature="e#3735#3759#0#HTML" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -459,7 +374,7 @@
         <state relative-caret-position="252">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -468,12 +383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#2170#2176#0#HTML" expanded="true" />
-            <element signature="e#2208#2214#0#HTML" expanded="true" />
-            <element signature="e#2777#2801#0#HTML" expanded="true" />
-            <element signature="e#3130#3155#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -481,9 +390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="108" lean-forward="false" selection-start-line="14" selection-start-column="108" selection-end-line="14" selection-end-column="119" />
-          <folding>
-            <element signature="e#3735#3759#0#HTML" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -602,9 +508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -619,9 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="23" column="64" lean-forward="true" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#28#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -629,9 +529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#28#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -639,10 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="41" column="68" lean-forward="false" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
-          <folding>
-            <element signature="e#2161#2167#0#HTML" expanded="false" />
-            <element signature="e#2198#2204#0#HTML" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -650,15 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="40" column="50" lean-forward="false" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/static/main/css/custom_styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="65" column="1" lean-forward="false" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -674,45 +558,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="33" column="8" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/templates/main/dance.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
-          <caret line="56" column="79" lean-forward="true" selection-start-line="52" selection-start-column="72" selection-end-line="56" selection-end-column="79" />
-          <folding>
-            <element signature="e#2170#2176#0#HTML" expanded="true" />
-            <element signature="e#2208#2214#0#HTML" expanded="true" />
-            <element signature="e#2777#2801#0#HTML" expanded="true" />
-            <element signature="e#3130#3155#0#HTML" expanded="true" />
-          </folding>
+          <caret line="56" column="79" lean-forward="false" selection-start-line="52" selection-start-column="72" selection-end-line="56" selection-end-column="79" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/static/main/css/custom_styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="65" column="1" lean-forward="false" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/templates/main/video.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="39" column="76" lean-forward="false" selection-start-line="39" selection-start-column="76" selection-end-line="39" selection-end-column="76" />
+        <state relative-caret-position="357">
+          <caret line="44" column="28" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
           <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#video#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#2376#2382#0#HTML" expanded="true" />
-            <element signature="e#2418#2424#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#form#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -18,6 +18,8 @@
 
         <!-- Bootstrap  -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- Plyr -->
+        <link rel="stylesheet" href="https://cdn.plyr.io/3.3.21/plyr.css">
         <!-- Icomoon Icon Fonts-->
         <link rel="stylesheet" href="{% static 'main/css/icomoon.css' %}">
         <!-- Theme style  -->
@@ -36,10 +38,10 @@
                     <h3 class="text-white">{{ selected_element.title }}</h3>
                 </div>
 
+                <!-- Plyr video player -->
                 <div class="col-sm-12 text-center" style="border-top: 1px solid #444; border-bottom: 1px solid #444;">
-                    <video style="min-width: 70%; max-width: 100%;" controls>
+                    <video poster="{{ selected_element.image_url }}" id="player" playsinline controls>
                         <source src="{{ selected_element.video_url }}" type="video/mp4">
-                        Your browser does not support the video tag.
                     </video>
                 </div>
 
@@ -68,5 +70,8 @@
         <script src="{% static 'main/js/jquery.easing.1.3.js' %}"></script>
         <!-- Waypoints -->
         <script src="{% static 'main/js/jquery.waypoints.min.js' %}"></script>
+        <!-- Plyr video player -->
+        <script src="https://cdn.plyr.io/3.3.21/plyr.polyfilled.js"></script>
+        <script>const player = new Plyr('#player');</script>
 	</body>
 </html>
