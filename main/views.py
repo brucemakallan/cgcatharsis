@@ -30,3 +30,17 @@ def draw(request):
 
     return render(request, 'main/draw.html', dict(drawelements=drawelements))
 
+
+def video(request, pk):
+    selected_element = Dance.objects.get(id=pk)
+
+    if request.method == "POST":  # Like button clicked
+        item_id = request.POST.get("item_id")
+        selected_element = Dance.objects.get(id=item_id)
+        selected_element.likes = selected_element.likes + 1
+        selected_element.save()
+    else:
+        selected_element.views = selected_element.views + 1
+        selected_element.save()
+
+    return render(request, 'main/video.html', dict(selected_element=selected_element))

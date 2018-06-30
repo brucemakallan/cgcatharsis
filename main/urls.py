@@ -7,4 +7,5 @@ urlpatterns = [
     path('', views.index, name='index'),
     path('dance', views.dance, name='dance'),
     path('draw', views.draw, name='draw'),
+    path('video/<int:pk>', views.video, name='video'),
 ]

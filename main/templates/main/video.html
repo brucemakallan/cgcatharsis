@@ -1,0 +1,72 @@
+{% load static %}
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>cgcatharsis | Video</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="cgcatharsis: Dance, Draw, Build" />
+        <meta name="keywords" content="cg, catharsis, cgcatharsis, dance, draw, build, dancer, creator" />
+        <meta name="author" content="cgcatharsis" />
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="shortcut icon" href="{% static 'main/images/icons/favicon.ico' %}">
+
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+
+        <!-- Bootstrap  -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- Icomoon Icon Fonts-->
+        <link rel="stylesheet" href="{% static 'main/css/icomoon.css' %}">
+        <!-- Theme style  -->
+        <link rel="stylesheet" href="{% static 'main/css/style.css' %}">
+        <!-- Custom Css  -->
+        <link rel="stylesheet" href="{% static 'main/css/custom_styles.css' %}">
+	</head>
+
+	<body style="background-color: black; color: whitesmoke;">
+        <div class="container-fluid py-1">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <a href="{% url 'main:dance' %}" title="Back">
+                        <img width="50" class="logo" style="float: left;" src="{% static 'main/images/logo.png' %}" alt="Logo">
+                    </a>
+                    <h3 class="text-white">{{ selected_element.title }}</h3>
+                </div>
+
+                <div class="col-sm-12 text-center" style="border-top: 1px solid #444; border-bottom: 1px solid #444;">
+                    <video style="min-width: 70%; max-width: 100%;" controls>
+                        <source src="{{ selected_element.video_url }}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <!-- stats -->
+                <div class="col-sm-12 text-center">
+                    <p>&bull; {{ selected_element.description }} &bull;</p>
+                    <p><small>{{ selected_element.date_added }}</small></p>
+                    <p><span class="text-white views"><i class="icon-eye"></i> {{ selected_element.views }} views</span></p>
+                    <p><span class="text-white likes"><i class="icon-heart"></i> {{ selected_element.likes }} likes</span></p>
+
+                    <!-- Like button -->
+                    <form action="" method="post">
+                        {% csrf_token %}
+                        <input type="hidden" name="item_id" value="{{ selected_element.id }}">
+                        <input type="submit" class="btn btn-primary" style="font-size: 10px;" value="Like">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <!-- jQuery Easing -->
+        <script src="{% static 'main/js/jquery.easing.1.3.js' %}"></script>
+        <!-- Waypoints -->
+        <script src="{% static 'main/js/jquery.waypoints.min.js' %}"></script>
+	</body>
+</html>

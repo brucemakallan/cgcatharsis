@@ -35,8 +35,11 @@
                                                     <div class="desc">
                                                         <div class="con">
                                                             <div class="entry-intro">
-                                                                <h2 class="entry-heading text-white">{{ drawelement.title }}</h2>
-                                                                <p class="entry-subheading text-white">{{ drawelement.description }}</p>
+                                                                <h2 class="entry-heading text-white mb-1">{{ drawelement.title }}</h2>
+                                                                <p class="entry-subheading text-white">
+                                                                    &bull; {{ drawelement.description }} &bull;<br>
+                                                                    <small>{{ drawelement.date_added }}</small>
+                                                                </p>
                                                             </div>
                                                             <p class="play-icon text-white text-center mt-5">
                                                                 <a href="{{ drawelement.image_url }}">
