@@ -25,7 +25,7 @@ SECRET_KEY = '5sv7r4t1cjboz7$3qv4&)sdqy#3rzmv%ukzs-d!-#^b(s0x84l'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'cgcatharsis.herokuapp.com', 'cgcatharsis.com']
 
 
 # Application definition

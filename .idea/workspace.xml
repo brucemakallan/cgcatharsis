@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3648bf62-bb8a-470c-9bca-74a7791d6d1c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/templates/main/video.html" afterPath="$PROJECT_DIR$/main/templates/main/video.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cgcatharsis/settings.py" afterPath="$PROJECT_DIR$/cgcatharsis/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,14 +26,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="video.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="video.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/templates/main/video.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="44" column="28" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+            <state relative-caret-position="147">
+              <caret line="34" column="39" lean-forward="false" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cgcatharsis/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -102,6 +110,7 @@
         <option value="$PROJECT_DIR$/main/urls.py" />
         <option value="$PROJECT_DIR$/main/views.py" />
         <option value="$PROJECT_DIR$/main/templates/main/video.html" />
+        <option value="$PROJECT_DIR$/cgcatharsis/settings.py" />
       </list>
     </option>
   </component>
@@ -169,7 +178,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="video&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/templates/main/video.html&#10;base&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/templates/main/base.html&#10;views&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/views.py&#10;urls&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/urls.py&#10;ind&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/templates/main/index.html&#10;draw&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/templates/main/draw.html&#10;m&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/models.py&#10;mod&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/models.py&#10;view&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/views.py&#10;url&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/urls.py&#10;adm&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/admin.py&#10;mode&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/models.py&#10;dance&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/templates/main/dance.html&#10;custom&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/static/main/css/custom_styles.css&#10;admin&#9;null&#9;null&#10;models&#9;null&#9;null&#10;index&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/templates/main/index.html" />
+    <property name="SearchEverywhereHistoryKey" value="setting&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/cgcatharsis/settings.py&#10;video&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/templates/main/video.html&#10;base&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/templates/main/base.html&#10;views&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/views.py&#10;urls&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/urls.py&#10;ind&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/templates/main/index.html&#10;draw&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/templates/main/draw.html&#10;m&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/models.py&#10;mod&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/models.py&#10;view&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/views.py&#10;url&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/urls.py&#10;adm&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/admin.py&#10;mode&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/models.py&#10;dance&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/templates/main/dance.html&#10;custom&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/static/main/css/custom_styles.css&#10;admin&#9;null&#9;null&#10;models&#9;null&#9;null&#10;index&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/cgcatharsis/main/templates/main/index.html" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RunDashboard">
@@ -400,14 +409,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cgcatharsis/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cgcatharsis/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -588,11 +589,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/templates/main/video.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="44" column="28" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+        <state relative-caret-position="147">
+          <caret line="34" column="39" lean-forward="false" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cgcatharsis/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>

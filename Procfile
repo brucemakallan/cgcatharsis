@@ -1,0 +1,1 @@
+web: gunicorn cgcatharsis.wsgi —-log-file -
