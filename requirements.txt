@@ -22,7 +22,7 @@ grpcio==1.7.0
 gunicorn==19.8.1
 idna==2.6
 itsdangerous==0.24
-Jinja2==2.10
+Jinja2==2.11.3
 macholib==1.9
 MarkupSafe==1.0
 monotonic==1.4
