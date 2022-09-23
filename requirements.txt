@@ -31,7 +31,7 @@ oauthlib==2.0.6
 passlib==1.7.1
 pefile==2017.11.5
 pipenv==2018.6.25
-protobuf==3.4.0
+protobuf==3.18.3
 psycopg2==2.7.5
 pyasn1==0.3.7
 pyasn1-modules==0.1.5
